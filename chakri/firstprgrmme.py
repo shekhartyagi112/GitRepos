@@ -1,6 +1,9 @@
-a = input ("enter any number ; ")
-if a / 2 == 0:
-    print('true')
-if else :
-    print('false')
+a = 100
+b = 300
+print(a+b)
+print(a*b)
+print(a/b)
+print(a-b)
+
+
 
