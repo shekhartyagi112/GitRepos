@@ -36,3 +36,15 @@ a,b = 30,40
 b,a = a,b
 print(a,b)
 
+#changing the lsit value by using index number
+lst = [10,'chakri',10.5,'true',(10,30,50)]
+print(lst[2])
+
+print(lst[-2])
+
+print(type(lst))
+
+x = 98 #int
+y = "chakri" #str
+z = [60,'true',3.5,'hyd']  #list
+w = (60,'true',3.5,'hyd')  #tuple
