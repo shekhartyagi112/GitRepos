@@ -48,3 +48,8 @@ x = 98 #int
 y = "chakri" #str
 z = [60,'true',3.5,'hyd']  #list
 w = (60,'true',3.5,'hyd')  #tuple
+
+n1 = int(input ('enter any number :' ))
+n2 = int(input('enter any number :' ))
+
+print(n1+n2)
