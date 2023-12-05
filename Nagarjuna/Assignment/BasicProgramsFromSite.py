@@ -24,8 +24,8 @@ Multiply = Val1*Val2
 
 print(Multiply)
 
-#4). Python program to repeat a given string 5 times.
-print("4). Python program to repeat a given string 5 times.")
+#4). Python program to repeat a given string 3 times.
+print("4). Python program to repeat a given string 3 times.")
 
 input = "I am learning automation "
 
@@ -34,9 +34,9 @@ print(input * 3)
 #5). Python program to get the Average of given numbers.
 print("5). Python program to get the Average of given numbers.")
 
-a = 40
-b = 50
-c = 30
+a = 20
+b = 30
+c = 40
 
 Avg = (a+b+c)/3
 print("Avarage:" ,Avg)
