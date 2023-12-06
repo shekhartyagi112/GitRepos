@@ -56,9 +56,72 @@ print(mylist)
 #['grapes', 'apple', 'banana', 'orange']
 
 #To append items from another list to current list use extend() method
-
 mylist=["apple","banana","orange"]
 mylist1=["pineapple","mango"]
 mylist.extend(mylist1)
 print(mylist)
 #['apple', 'banana', 'orange', 'pineapple', 'mango']
+
+#remove() method remove specified items from list
+mylist=["apple","banana","orange"]
+mylist.remove("orange")
+print(mylist)
+#['apple', 'banana']
+
+#pop() method removes specified items from list
+mylist=["apple","banana","orange"]
+mylist.pop(1)
+print(mylist)
+#['apple', 'orange']
+
+#in pop() method if index is not specified then pop remove last item from list
+mylist=["apple","banana","orange"]
+mylist.pop()
+print(mylist)
+#['apple', 'banana']
+
+#del keyword also removes specified items from list
+mylist=["apple","banana","orange"]
+del mylist [1]
+print(mylist)
+#['apple', 'orange']
+
+#del
+mylist=["apple","banana","orange"]
+del mylist
+#print(mylist)
+#name 'mylist' is not defined
+
+#clear methos empties the list
+mylist=["apple","banana","orange"]
+mylist.clear()
+print(mylist)
+#[]
+
+#sort() asc order by default
+mylist=["apple","grapes","banana","orange"]
+mylist.sort()
+print(mylist)
+#['apple', 'banana', 'grapes', 'orange']
+
+#for desc sort(reverse=True)
+mylist=["apple","grapes","banana","orange"]
+mylist.sort(reverse=True)
+print(mylist)
+#['orange', 'grapes', 'banana', 'apple']
+
+#reverse string
+mylist=["apple","grapes","banana","orange"]
+mylist.reverse()
+print(mylist)
+#['orange', 'banana', 'grapes', 'apple']
+
+#copy list items
+mylist=["apple","grapes","banana","orange"]
+mylist.copy()
+print(mylist)
+#['apple', 'grapes', 'banana', 'orange']
+
+
+
+
