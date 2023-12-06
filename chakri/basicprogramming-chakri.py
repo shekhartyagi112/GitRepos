@@ -38,6 +38,7 @@ print(a,b)
 
 #changing the lsit value by using index number
 lst = [10,'chakri',10.5,'true',(10,30,50)]
+
 print(lst[2])
 
 print(lst[-2])
@@ -49,7 +50,16 @@ y = "chakri" #str
 z = [60,'true',3.5,'hyd']  #list
 w = (60,'true',3.5,'hyd')  #tuple
 
-n1 = int(input ('enter any number :' ))
-n2 = int(input('enter any number :' ))
+#changing the lsit value by using index number
 
-print(n1+n2)
+list = [2,5,'chakri',70,'cm']
+print(list[2])
+
+list[2] = 'siragam'
+print(list)
+
+
+##########################3 dictionary ############################
+
+
+b b
