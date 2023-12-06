@@ -195,3 +195,4 @@ print("(Area of cylinder:)",Area)
 # Example: 153 = 1*1*1 + 5*5*5 + 3*3*3
 print("19). Python program to check whether the given number is an Armstrong number or not.")
 
+print("_"*50)
