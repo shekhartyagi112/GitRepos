@@ -113,5 +113,27 @@ strf = '{"Name" : "John", "age" : 25, "mobile": 876865788}'
 data = json.loads(strf)
 print(data,type(data),data['age'])
 
-bl1 = bool(str3)
-print(bl1,type(bl1))
+str2 = 'chakri'
+bl2 = bool(str2)
+print(bl2,type(bl2))
+
+str2 = ''
+bl2 = bool(str2)
+print(bl2,type(bl2))
+
+print('-'*30)
+
+# ###################  tuple #########
+# tuple -> int : conversion not possible
+# tuple -> float : conversion not possible
+tp2 = (2,3,'chakr',(2,3,4))
+print(type(tp2))
+inta = str(tp2)
+print(inta,type(inta))
+
+#tuple --- > list
+tp2 = (2,3,'chakr',(2,3,4))
+ls3 = list(tp2)
+print(ls3,type(ls3))
+
+
