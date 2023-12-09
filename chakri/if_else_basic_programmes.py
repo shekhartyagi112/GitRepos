@@ -261,7 +261,7 @@ else:
     '''
 
 
-#38). Python program that reads month and returns season for that month.
+'''#38). Python program that reads month and returns season for that month.
 m = input('enter first three letters of month :')
 if m == 'feb' or m == 'mar' or m == 'apr' or m =='may':
     print('summer season')
@@ -269,3 +269,23 @@ elif m == 'jun' or m == 'jul' or m == 'aug' or m == 'sep':
     print('rainy season')
 else:
     print('winter season')
+'''
+#39). Python program to check whether the input number is a float or not if yes then round up the number to 2 decimal places.
+
+'''num = float(input('enter ny float value : '))
+
+if type(num) == float:
+    print(round(num,2))
+else:
+    print(num)
+'''
+
+#40). Python program to check whether the input number is divisible by 12 or not.
+a = int(input('enter any number :'))
+b = a/12
+c = int(b)
+if a%12 == 0:
+    print(a,'is divisible by',c,'times')
+else:
+    print(a,'is not divisible by 12')
+
