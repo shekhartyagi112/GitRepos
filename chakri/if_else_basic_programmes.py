@@ -123,3 +123,149 @@ else:
     print('sorry you are failed round 1 better luck next time')
     '''
 
+#13). Python program to determine whether a given number is available in the list of numbers or not.
+
+'''l = [12,33,44,45,70,80,87]
+n = int(input('enter any number : '))
+if n in l:
+    print(n , 'present in the list')
+else:
+    print(n,'not present in the list')
+'''
+
+#14). Python program to find the largest number among three numbers.
+
+'''a = int(input('enter first value : '))
+b = int(input('enter seond value  : '))
+c = int(input('enter third value :'))
+if a>b and a>c:
+    print(a,'is the largest number among these three')
+if b>a and b>c:
+    print(b,'is the largest number among these three')
+if c>a and c>b:
+    print(c,'is the largest number among these three')
+else:
+    print('two of values among these three are equal')
+'''
+
+'''
+#15). Python program to check any person eligible to vote or not
+
+age = int(input('enter your age : '))
+b = 18-age
+if age >= 18:
+    print('you are eligible  to vote and please register')
+else:
+    print('sorry you have to waite',b, 'more years to vote')
+    '''
+#18). Python program to check whether a student has passed the exam. If marks are greater than 35 students have passed the exam.
+
+'''s = int(input('enter student marks :'))
+if s >= 35:
+    print('you have passed')
+else:
+    print('sorry you have failed in the exam')
+'''
+'''#19). Python program to check whether the given number is positive or not.
+p = int(input('enter any number ;'))
+if p > 0:
+    print( 'true', p ,'is positive number')
+else:
+    print('false', p , 'is negative number')
+#20). Python program to check whether the given number is negative or not.
+n = int(input('enter any number ;'))
+if n <= 0:
+    print('true',n,'is negative number')
+else:
+    print('false',n,'is postive number')'''
+
+#21). Python program to check whether the given number is positive or negative and even or odd.
+'''p = int(input('enter any number ;'))
+if p>0:
+    if p%2 == 0:
+        print('give number is positive and even number')
+    else:
+        print('given number is positive and odd')
+else:
+    if p%2 == 0:
+        print('given number is negative and even')
+    else:
+        print('given number is negative and odd ')
+    
+'''
+#25). Python program to check whether the given number is an integer or not.
+'''a = 22
+if type(a) == int:
+    print('true')
+else:
+    print('false')
+'''
+#26). Python program to check whether the given number is float or not.
+'''f = 12
+if type(f) == float:
+    print('true')
+else:
+    print('false')'''
+
+
+'''for i in range(10,15):
+  if i != 13 :
+    print(i)
+'''
+'''
+#22). Python program to print the largest number from two numbers.
+n1 = int(input('enetr fisrt number:'))
+n2 = int(input('enter second number:'))
+if n1>n2:
+    print( n1 ,'is grater number ')
+else:
+    print(n2 ,'is grater number')
+'''
+
+'''#23). Python program to check whether a given character is uppercase or not.
+c = input('enter any character:')
+if c.isupper():
+    print(c,'is upper case')
+else:
+    print(c,'is lower case')
+'''
+'''#24). Python program to check whether the given character is lowercase or not.
+c = input('enter any character:')
+if c.islower():
+    print(c,'is upper case')
+else:
+    print(c,'is lower case')
+'''
+
+#31). Python Python program to check whether the input number if a multiple of two print “Fizz” instead of the number and for the multiples of three print “Buzz”. For numbers that are multiples of both two and three print “FizzBuzz”.
+'''num = int(input("Enter a number: "))
+
+if num%2 == 0 and num%3 == 0:
+    print("FizzBuzz")
+elif num%2 == 0:
+    print("Fizz")
+elif num%3 == 0:
+    print("Buzz")'''
+
+
+#37). Python program to check whether a triangle is isosceles or not. An isosceles triangle is a triangle with (at least) two equal sides.
+''' a = int(input('enter triangle side1:'))
+b = int(input('enter triangle side2:'))
+c = int(input('enter triangle side3:'))
+if (a == b) or (a == c):
+    print('this is a isosceles triangle')
+elif (b == c) or (b == a):
+    print('this is a isosceles triangle')
+else:
+    print('not a isosceles triangle')
+    '''
+
+
+#38). Python program that reads month and returns season for that month.
+m = input('enter first three letters of month :')
+if m == 'feb' or m == 'mar' or m == 'apr' or m =='may':
+    print('summer season')
+elif m == 'jun' or m == 'jul' or m == 'aug' or m == 'sep':
+    print('rainy season')
+else:
+    print('winter season')
