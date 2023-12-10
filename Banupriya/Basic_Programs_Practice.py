@@ -160,7 +160,7 @@ print("_" *50)
 # r = Anual interest rate
 # t = time
 
-p = 100000
+p = 100
 r = 10
 t = 2
 amount = p+(p/r)*t
