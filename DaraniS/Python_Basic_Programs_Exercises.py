@@ -5,6 +5,7 @@ var2=40
 var3= var1+var2
 print(var3)
 
+
 #2)Python Program to subtract two integer values.
 
 var1=20
