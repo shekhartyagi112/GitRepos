@@ -115,6 +115,8 @@ print(var4, type(var4))
 # 55.78 <class 'float'>
 
 
+
+
 # string -> list
 stra = "Python"
 list1 = list(stra)
