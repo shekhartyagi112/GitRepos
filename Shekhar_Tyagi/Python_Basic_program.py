@@ -1,4 +1,3 @@
-"""
 #1). Python Program to add two integer values.
 print("1). Python Program to add two integer values.")
 
@@ -195,7 +194,7 @@ print("(Area of cylinder:)",Area)
 # 19). Python program to check whether the given number is an Armstrong number or not.
 # Example: 153 = 1*1*1 + 5*5*5 + 3*3*3
 print("19). Python program to check whether the given number is an Armstrong number or not.")
-"""
+
 print("_"*50)
 
 num = 6
