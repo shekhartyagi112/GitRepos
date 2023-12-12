@@ -79,6 +79,12 @@ print(var,type(var),var[7])
 
 #String to Tuple
 
+'''git pull update repository
+git status to check the newly added file rec colour
+git add . (to add all avaliable file changes done by me 
+git commint -m "file added"
+git push '''
+
 
 
 
