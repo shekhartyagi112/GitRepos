@@ -195,6 +195,42 @@ print("(Area of cylinder:)",Area)
 # Example: 153 = 1*1*1 + 5*5*5 + 3*3*3
 print("19). Python program to check whether the given number is an Armstrong number or not.")
 
+num = a = 153
+Rev = 0
+while a>0:
+    skt = a%10
+    Rev = Rev + skt**3
+    a = a//10
+if Rev == num:
+    print("it is a armstrong value")
+else:
+    print("it is not a armstrong value")
+
+"""
+20). Python program to calculate simple interest.
+Formula = P+(P/r)*t
+P = Principle Amount
+r = Anual interest rate
+t = time
+"""
+print("20). Python program to calculate simple interest.")
+
+P = 20000
+r = 12
+t = 4
+F = P+(P/r)*t
+#F = 20000+(20000/12)*4
+print("Intrest:",F)
+
+
+
+
+
+
+
+
+"""
+
 print("_"*50)
 
 num = 6
@@ -211,7 +247,6 @@ for i in range (10):
     print(b, end=" ")
     a,b = b, a+b
 
-#
 
 print()
 
@@ -229,3 +264,4 @@ else:
     print("this is not prime value:",num)
 
 
+"""
