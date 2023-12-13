@@ -122,6 +122,7 @@ print(str[2])
 #list allows diff types of data
 #list is mutable
 #list folloes positive and negative index
+#whenever data change randomly at that time we can use list.
 
 list=[4,5,4.2,"apple"]
 print(list,type(list))
@@ -137,10 +138,29 @@ print (list)
 
 #tuple is immutable datatype
 #tuplee in ()
-#accepts any kind of data
+#accepts any kind of data int float string list tuple dict set boolean
+#the internal properties of the data in tuple remains same.
 #tuple folloes positive and negative index
 #tuple is faster than list
+#whenever data is fixed at that time we can use tple like months in year.
 
 
 tup1=(1,2,8,9,'hello')
 print(tup1)
+
+tup1=(2,3,'tushar',[4,5,9],(2,7,8),7.7,{'a':400,'b':100},{10,20,30},True ,False)
+print(tup1)
+
+print(tup1[2],type(tup1))
+#tushar <class 'tuple'>
+
+var1=tup1[3]
+print(var1,type(var1))
+#[4, 5, 9] <class 'list'>
+
+print(var1[1])
+#5
+
+print(tup1[3][0])
+#4
+
