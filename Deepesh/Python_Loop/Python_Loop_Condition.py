@@ -90,6 +90,87 @@ else:
 
 
 
+# Program to find out the factorial of any number.
+"""
+print("_"*50)
+numa = int(input("Please enter number to get factorial :"))
+#factorial: 4*3*2*1 : 24
+result = 1
+
+for i in range(numa, 0, -1):
+    print(i)
+    result = result*i
+    # result = 1, i = 4
+    # 1*4 = 4 | result = 4,
+    # result = 4, i = 3 | 4*3 = 12
+
+print("factorial output :", result)
+
+# print("_"*40)
+# for i in range(10, 1, -1):
+#     print(i)
+"""
+
+
+# python program to get the sum all the numbers from 1 to 10
+summation = 0
+for i in range(1, 11):
+    summation = summation + i
+
+print("sum values :", summation)
+print("sum values :", summation)
+
+
+#############################################
+#apply loop on list data
+print("_"*40)
+even_sum = 0
+odd_sum = 0
+list1 = [4, 6, 7, 23]
+
+for val in range(1, 21):
+    if val%2 == 0:
+        even_sum = even_sum + val
+    else:
+        odd_sum = odd_sum + val
+
+print("even sum :", even_sum)
+print("odd sum :", odd_sum)
+
+
+
+# add even and odd numbers from 1 to 20
+print("_"*40)
+even_sum = 0
+odd_sum = 0
+
+for val in range(1, 21):
+    if val % 2 == 0:
+        even_sum = even_sum + val
+    else:
+        odd_sum = odd_sum + val
+
+    print("val :", val)
+    print("even sum :", even_sum)
+    print("odd sum :", odd_sum)
+    print("_"*5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
