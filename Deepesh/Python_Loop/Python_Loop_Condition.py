@@ -156,6 +156,81 @@ for val in range(1, 21):
     print("_"*5)
 
 
+##################################################################
+# Nested Loop Condition
+print("_"*40)
+
+for i in range(1, 11):
+    print("address i:", i)
+    for j in range(1, 4):
+        #print("address :", i, "package :", j)
+        #print("address :", i)
+        print("package j:", j)
+    print("*"*30)
+
+
+########################################################
+# program : write a program to get list of prime numbers between 1 to 100
+# prime number : the number which can divide by 1 or the number itself.
+print("+"*50)
+#num = 10
+for num in range(1, 100): # num= 5, 9
+    prime = True
+    for i in range(2, num): # i= 2, 3, 4,5, 6, 7, 8
+        if num%i == 0:
+            prime = False
+
+    if prime:
+        print(num)
+
+
+# program : print following pattern with loop condition
+print("_"*40)
+"""
+*
+* *
+* * *
+* * * *
+* * * * *
+"""
+for i in range(1, 6): # i =1 | 2 | 3
+    print()
+    for j in range(i): # j = 0 | 0, 1 | 0, 1, 2
+        print("*", end= " ")
+
+
+
+########### while loop condition #############
+print("_"*50)
+num = 1
+"""
+while num <= 20:
+    print(num)
+    num = num + 1
+    
+
+while True:
+    print(num)
+    num += 1
+
+"""
+
+####### continue and break statement ##########
+print("_"*40)
+temp = 1
+# while temp <= 10:
+#     if temp >= 5 and temp <= 8:
+#         temp = temp + 1
+#         continue
+#     print(temp)
+#     temp = temp + 1
+#
+temp = 1
+while temp <= 10:
+    if temp == 5:
+        break
+    print(temp)
+    temp = temp + 1
 
 
 
