@@ -122,6 +122,115 @@ print("A - Z alphabets upper case :")
 for letters in string.ascii_uppercase:
     print(letters, end='  ')
 
+
+#14). Python Loops program to print all even numbers between 1 to 100 in python.
+for i in range(2,101,2):
+    print(i,end=' ')
+
+for i in range(1,10):
+    print('chakri i:',i)
+    for s in range(1,5):
+        print('sainath s :',s)
+    print('-'*20)
+
+for i in range(1,6):
+    print()
+    for j in range(i):
+        print('*',end=' ')
+
+num = 1
+while num <= 10:
+    print(num,end=' ')
+    num = num + 1
+
+for i in range(1,6):
+    print('*'*i)
+    if i >= 5:
+        for s in range(4,1,-1):
+            print('*'*s)
+
+#15). Python Loops program to print all odd numbers between 1 to 100 using python.
+for i in range(1,100,2):
+    print(i,end=' ')
+
+#16). Python Loops program to find the sum of all natural numbers between 1 to n using python.
+
+n = int(input('enter any number:'))
+san = 0
+for i in range(1,n+1):
+    san = san + i
+print(san)
+
+
+
+#17). Python program to find the sum of all even numbers between 1 to n using python.
+n = int(input('sum of all even numbers between 1 to n:'))
+sen = 0
+for i in range(1,n):
+    if i%2 == 0:
+        sen = sen+i
+print(sen)
+
+#18). Python Loops program to find the sum of all odd numbers between 1 to n using python.
+n = int(input('sum of all odd numbers between 1 to n :'))
+to = 0
+for i in range(1,n):
+    if i%2 != 0:
+        to = to + i
+print(to)
+
+#19). Write a program to count the number of digits in a number using python.
+n = '2hakri143'
+s = 0
+for i in n:
+    if i.isnumeric():
+        s = s+1
+print(s)
+
+#20). Write a program to find the first and last digits of a number using python.
+c = 123456789
+a = str(c)
+for i in range(len(a)):
+    if i == 0:
+        print(a[0])
+    elif i == len(a)-1:
+        print(a[-1])
+
+#21). Write a program to find the sum of the first and last digits of a number using python.
+a= 123456789
+b = str(a)
+total = 0
+for i in range(len(b)):
+    if i == 0:
+        total = total + int(b[0])
+    elif i == len(b)-1:
+        total = total+int(b[-1])
+print(total)
 '''
-14). Python Loops program to print all even numbers between 1 to 100 in python.
+#22). Write a program to calculate the sum of digits of a number using python.
+a = '2556'
+b = 0
+for i in a:
+    if i.isnumeric():
+        b = b+1
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
