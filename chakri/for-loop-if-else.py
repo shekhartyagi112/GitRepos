@@ -68,16 +68,60 @@ for i in range(1,10):
         odd = odd+i
 print('sum of even numbers:',even)
 print('sum of odd number:',odd)
+
+
+
+#8). Write program that accepts a word from the user and converts all uppercases in the word to lowercase using python.
+input1 = input('enter any text to covert to lower case :')
+for char in input1:
+    if char.isupper():
+        print(char.lower(),end='')
+    else:
+        print(char,end='')
+
+
+
+#9). Python loops program that accepts a string and calculates the number of digits and letters using python.
+a = input('enter to know how many number and alphabets in input:')
+ls = 0
+ds = 0
+for i in a:
+    if i.isalpha():
+        ls = ls + 1
+    if i.isnumeric():
+        ds = ds + 1
+print('latters',ls)
+print('digits', ds)
+
+
+
+#11). Python Loops program to print all natural numbers from 1 to n using a while loop in python.
+n = int(input('enter any number:'))
+count = 1
+while count <= n:
+    print(count,end=' ')
+    count = count+1
+
+#12). Write a program to print all natural numbers in reverse (from n to 1) using a while loop in python
+n = int(input('enter any number :'))
+for i in range(n,0,-1):
+    print(i,end='  ')
+
+
+#13). Python Loops program to print all alphabets from a to z using for loop
+#       Take chr method help to print characters with ASCII values
+#      chr(65) = ‘A’
+#     A-Z ASCII Range  65-90
+#    a-z ASCII Range  97-122
+import string
+print("a - z alphabets lower case")
+for letters in string.ascii_lowercase:
+    print(letters, end='  ')
+print('-'*50)
+print("A - Z alphabets upper case :")
+for letters in string.ascii_uppercase:
+    print(letters, end='  ')
+
 '''
-
-
-
-
-
-
-
-
-
-
-
+14). Python Loops program to print all even numbers between 1 to 100 in python.
 
