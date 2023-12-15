@@ -225,12 +225,43 @@ temp = 1
 #     print(temp)
 #     temp = temp + 1
 #
-temp = 1
-while temp <= 10:
-    if temp == 5:
+
+# temp = 1
+# while temp <= 10:
+#     if temp == 5:
+#         break
+#     print(temp)
+#     temp = temp + 1
+
+
+
+# Program : Write a program to create a calculator which accepts the continue inputs.
+print("%%"*50)
+
+while True:
+
+    print("1. addition \n"
+          "2. multiplication \n"
+          "3. subtraction \n"
+          "4. divide\n"
+          "5. stop application")
+    opr_input = input("Please enter you choice :")
+    num1 = int(input("please enter first value :"))
+    num2 = int(input("please enter second value :"))
+    if int(opr_input) == 1:
+        print("addition :", num1+num2)
+    elif int(opr_input) == 2:
+        print("multiplication :", num1*num2)
+    elif int(opr_input) == 3:
+        print("subtraction :", num1-num2)
+    elif int(opr_input) == 4:
+        print("divide :", num1//num2)
+    elif int(opr_input) == 5:
         break
-    print(temp)
-    temp = temp + 1
+    print("_"*40)
+
+
+
 
 
 
